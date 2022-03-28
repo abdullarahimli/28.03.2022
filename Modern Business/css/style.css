@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* The start of the Header */
+
+.header {
+  padding: 12px 6rem;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+.left a {
+  text-decoration: none;
+  color: #fff;
+}
+.right ul{
+  width: 100%;
+  justify-content: right;
+  
+  
+}
+.right ul li {
+  list-style: none;
+  margin: 10px;
+  
+}
+.right ul {
+  display: flex;
+}
+.right ul li a {
+  text-decoration: none;
+  color: #96989a;
+  font-size: 22px;
+}
+
+/* The end of the Header */
+
+
+
+/* The start of the Section One */
+
+#section_one
+{
+  background-color: #212529;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.all
+{
+  display: flex;
+  align-items: center;
+}
+.left
+{
+  width: 50%;
+}
+.text
+{
+  height: auto;
+  margin-left: 83px;
+  
+  text-align: left;
+}
+.text h1
+{
+  color: #fff;
+  font-size: 3rem;
+}
+.text p
+{
+  color: #96989a;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+.link a
+{
+  font-size: 1.25rem;
+  padding: 0.8rem;
+  background-color: #0d6efd;
+  margin-left: 83px;
+  margin-right: 83px;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.link a:first-child:hover
+{
+  background-color: #0250c5;
+}
+.link a:last-child
+{
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.link a:last-child:hover
+{
+  background-color: #fff;
+  color: black;
+}
+
+.right
+{
+  width: 50%;
+  text-align: center;
+}
+.right img
+{
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* The end of the Section One*/
+
+
+
+/* The start of the Section Two */
+
+.section_two
+{
+  width: 100%;
+}
+.container
+{
+  margin-left: 83px;
+}
+.left_and_right
+{
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 80px;
+}
+.left_side
+{
+  width: 33.33%;
+  text-align: left;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.left_side h2
+{
+  font-size: 40px;
+  color: #212529;
+}
+.right_side
+{
+  width: 66.66%;
+}
+.boxes
+{
+  flex-wrap: wrap;
+  display: flex;
+}
+.box1
+{
+  width: 50%;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+.box1 i
+{
+  font-size: 30px;
+  background-color: #257cfd;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+.box1 h2
+{
+  color: #212529;
+  margin-bottom: 15px;
+}
+.box1 p
+{
+  font-size: 20px;
+  color: #212529;
+}
+/* The end of the Section Two */
+
+
+
+
+
+
+/* The start of the Section Three */
+
+.top_and_bottom
+{
+  background-color: #f8f9fa;
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top
+{
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  margin: 30px 100px;
+}
+.bottom
+{
+  
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  
+}
+.bottom img
+{
+  border-radius: 100%;
+
+  
+}
+.bottom p
+{
+ 
+  font-size: 25px;
+  margin-top: 30px;
+  margin: auto;
+
+  
+}
+.bottom span
+{
+  color: #0d6efd;
+  font-weight: bolder;
+  
+}
+
+
+/* The end of the Section Three */
+
+
+
+
+
+
+/* The start of the Section Four */
+
+.gnrl
+{
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.four_center
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.four_top
+{
+  width: 100%;
+  text-align: center;
+}
+.four_top h2
+{
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #212529;
+}
+.four_top p
+{
+  font-size: 25px;
+  color: #6C757D;
+  margin-bottom: 48px;
+}
+.frst
+{
+  width: 30%;
+  padding: 0rem 2rem;
+}
+.frst img
+{
+  width: 350px;
+  border-radius: 5px;
+}
+.frst a
+{
+  font-weight: bolder;
+}
+.txt
+{
+  padding: 0 5px;
+  border-radius: 10px;
+  background-color: #0d6efd;
+  color: #fff;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.btm
+{
+  display: flex;
+  height: auto;
+  justify-content: left;
+  align-items: center;
+}
+.btm img
+{
+  width: 40px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.four_bottom
+{
+  padding: 5rem;
+  background-color: #0d6efd;
+  margin-top: 30px;
+  color: #fff;
+  display: flex;
+}
+.rght, .lft
+{
+  width: 50%;
+}
+
+.lft input
+{
+  padding: 1rem;
+}
+.lft button
+{
+  padding: 1rem;
+}
+
+/* The end of the Section Four */
